@@ -122,6 +122,9 @@ class _CalenderState extends State<Calender> {
               ),
             ],
           ),
+          /*
+          * HEADER
+          * */
           Container(
             child: Column(
               children: <Widget>[
@@ -261,6 +264,9 @@ class _CalenderState extends State<Calender> {
     );
   }
 
+  /*
+  * Methods
+  * */
   void _showAddListTile() {
     showModalBottomSheet(
         context: context,

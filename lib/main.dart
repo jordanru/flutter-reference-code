@@ -57,13 +57,7 @@ class _HomeState extends State<Home> {
   void initState() {
     // TODO: implement initState
     super.initState();
-
-    chBoxList.add(new CheckboxItem("Jordan Ruff", false));
-    chBoxList.add(new CheckboxItem("Regina Ruff", false));
-    chBoxList.add(new CheckboxItem("Anne Fischer", false));
-    chBoxList.add(new CheckboxItem("Mika Gläser", false));
-    chBoxList.add(new CheckboxItem("Heike Ruff", false));
-    chBoxList.add(new CheckboxItem("Marten Fischer", false));
+    resetChBoxList();
   }
 
   @override
@@ -518,6 +512,10 @@ class _HomeState extends State<Home> {
     );
   }
 
+  /*
+  * GROUP STEPS WIDGETS
+  * */
+
   Widget createGroupS1() {
     return Container(
       color: Color(0xFF737373),
@@ -835,6 +833,7 @@ class _HomeState extends State<Home> {
     return mixedCards;
   }
 
+  //RANDOM CONTENT
   List<String> Title = [
     "Hanau und die Rolle der AfD",
     "Neue Esszimmerlampe!",
@@ -894,7 +893,7 @@ class _HomeState extends State<Home> {
                 alignment: Alignment.topLeft,
                 margin: EdgeInsets.fromLTRB(5, 3, 0, 0),
                 child: Text(
-                  te.creater,
+                  te.creator,
                   style: TextStyle(
                       color: Colors.orange,
                       fontSize: 25,
