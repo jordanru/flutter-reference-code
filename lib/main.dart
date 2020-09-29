@@ -26,13 +26,13 @@ class _HomeState extends State<Home> {
   String gName = "NAME";
 
   Map<String, bool> values = {
-    "Jordan Ruff": false,
-    "Regina Ruff": false,
-    "Anne Fischer": false,
-    "Mika Gläser": false,
-    "Jörg Gläser": false,
-    "Heike Ruff": false,
-    "Marten Fischer": false
+    "Max Mustermann": false,
+    "Marc Mustermann": false,
+    "Moritz Mustermann": false,
+    "Mika Mustermann": false,
+    "Jörg Mustermann": false,
+    "Alina Mustermann": false,
+    "Marten Mustermann": false
   };
 
   //ColorPicker Gruppe Erstellen
@@ -45,12 +45,12 @@ class _HomeState extends State<Home> {
 
   void resetChBoxList() {
 
-    chBoxList.add(new CheckboxItem("Jordan Ruff", false));
-    chBoxList.add(new CheckboxItem("Regina Ruff", false));
-    chBoxList.add(new CheckboxItem("Anne Fischer", false));
-    chBoxList.add(new CheckboxItem("Mika Gläser", false));
-    chBoxList.add(new CheckboxItem("Heike Ruff", false));
-    chBoxList.add(new CheckboxItem("Marten Fischer", false));
+    chBoxList.add(new CheckboxItem("Max Mustermann", false));
+    chBoxList.add(new CheckboxItem("Marc Mustermann", false));
+    chBoxList.add(new CheckboxItem("Moritz Mustermann", false));
+    chBoxList.add(new CheckboxItem("Mika Mustermann", false));
+    chBoxList.add(new CheckboxItem("Alina Mustermann", false));
+    chBoxList.add(new CheckboxItem("Marten Mustermann", false));
   }
 
   @override
@@ -299,7 +299,7 @@ class _HomeState extends State<Home> {
     List<Widget> GroupCards = [];
 
     GroupCards.add(OpenGroupCard("A L L E"));
-    GroupCards.add(OpenGroupCard("R U F F ' S"));
+    GroupCards.add(OpenGroupCard("M U S T E R M A N N ' S"));
     GroupCards.add(addGroupCard());
 
     return GroupCards;
@@ -845,7 +845,7 @@ class _HomeState extends State<Home> {
     "Aliquam leo metus, elementum sit amet turpis ornare, pretium finibus sem. Aliquam semper pellentesque ante a ornare. Suspendisse pulvinar dictum felis, tincidunt maximus magna vulputate ullamcorper. Pellentesque vitae volutpat urna, posuere laoreet enim. Fusce eget lacus egestas, vulputate risus sit amet, posuere sapien. Etiam suscipit pharetra felis, quis varius est mattis sed. Suspendisse vel massa viverra, semper eros vitae, tempor enim. Donec vestibulum, ex a tempor ornare, lacus orci tincidunt orci, eu aliquam ex felis in arcu. Quisque commodo ultrices tempus. Vivamus non blandit leo."
   ];
   List<String> Date = ["27.02.2020", "20.02.2020", "15.02.2020"];
-  List<String> Creator = ["Jordan Ruff", "Regina Ruff", "Anne Fischer"];
+  List<String> Creator = ["Max Mustermann", "Marc Mustermann", "Moritz Mustermann"];
 
   List<TextEintrag> findE() {
     List<TextEintrag> TE = [];
@@ -978,13 +978,13 @@ class _HomeState extends State<Home> {
     'lib/assets/pic4.jpeg'
   ];
   List<String> I_Creator = [
-    "Jordan Ruff",
-    "Regina Ruff",
-    "Anne Fischer",
-    "Mika Gläser",
-    "Jörg Gläser",
-    "Heike Ruff",
-    "Marten Fischer"
+    "Max Mustermann",
+    "Marc Mustermann",
+    "Moritz Mustermann",
+    "Mika Mustermann",
+    "Jörg Mustermann",
+    "Alina Mustermann",
+    "Marten Mustermann"
   ];
 
   List<ImageEintrag> findI() {
